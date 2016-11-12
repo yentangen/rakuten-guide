@@ -1,0 +1,136 @@
+#sidebar-nav
+{
+  background-color:rgba(255,0,0,0.3);
+}
+
+.gray-background{
+  background-color:#3B3A40;
+}
+
+.inherit {
+  background:inherit;
+}
+
+.icon-bar {
+  background-color: #FFE212;
+}
+
+.dropdown-menu
+{
+  border: 0px solid rgba(0,0,0,0);
+  min-width: 60px;
+}
+
+#sidebar-nav li a, #sidebar-nav li button
+{
+  font-weight:700;
+  color:#007FFF;
+  transition:color .5s ease-in;
+}
+
+#sidebar-nav li a:hover
+{
+  font-weight:700;
+  color:#FFF;
+  background-color:rgba(6,50,87,0);
+}
+
+#sidebar-nav li.active a
+{
+  color:#900;
+  font-weight:700;
+}
+
+#sidebar-nav .open>a, .nav .open>a:focus, #sidebar-nav .open>a:hover
+{
+  background-color: inherit;
+}
+
+.pull-right a:hover
+{
+  color:#FFF !important;
+  transition:color .5s ease-in;
+}
+
+.jumbotron
+{
+  margin-bottom:0;
+}
+
+.navbar-toggle {
+  border: 1px solid #FFE212;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.vcenter
+{
+  display: flex;
+  align-items: center;
+}
+
+.window-height {
+  padding-top:75px;
+  padding-bottom:75px;
+}
+
+.container
+{
+  /*width: 1290px;*/
+}
+
+.image-border
+{
+  border-color: red;
+  border-style: solid;
+  border-width: 5px;
+  padding: 0px 0px 0px 0px;
+  width: 330px;
+  height: 165px;
+}
+
+#top
+{
+  background:inherit;
+  color:#FFF;
+}
+
+#bckimage
+{
+  background:url('../img/rlogo_400x400.jpg') center no-repeat;
+  background-size:60%;
+  z-index: -1;
+}
+
+#main-container
+{
+  background-color: #FFE6E6;
+}
+
+#footer
+{
+  color:#77747F;
+}
+
+#toc li a
+{
+  font-size: 15px;
+  color: blue;
+  text-shadow: 1px 1px #000000;
+}
+
+#card-specs td, #card-specs th
+{
+  border-color: black;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}

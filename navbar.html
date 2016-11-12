@@ -1,0 +1,60 @@
+<nav id="sidebar-nav" class="navbar navbar-fixed-top affix">
+    <div class="container">
+        <div class="navbar-header">
+            <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div id="sidebar-nav-inner" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Guides<span class="caret"></a>
+                    <ul class="dropdown-menu" style="padding: 0 0 0 0;">
+                        <li><a href="ichiba.html">Ichiba</a></li>
+                        <li><a href="card.html">Card</a></li>
+                        <li><a href="bank.html">Bank</a></li>
+                        <li><a href="edy.html">Edy</a></li>
+                        <li><a href="superpoint.html">Super Point</a></li>
+                        <li><a href="securities.html">Securities</a></li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://www.linkedin.com/in/tangenyen"><i class="fa fa-linkedin-square" style="font-size: 2em;" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a id="githubbtn" href="https://github.com/yentangen"><i class="fa fa-github" style="font-size: 2em;" aria-hidden="true"></i></a>
+                    </li>
+                    <li id="email">
+                        <script>
+                            var y = "yentangen";
+                            var z = "gmail.com";
+                            var email_icon = document.createElement('a');
+                            email_icon.setAttribute("class", "glyphicon glyphicon-envelope");
+                            email_icon.setAttribute("style", "font-size: 2em; padding-top: 18px;");
+                            email_icon.setAttribute("href", "mail" + "to:" + y + "@" + z);
+                            document.getElementById("email").appendChild(email_icon);
+                        </script>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</nav>
